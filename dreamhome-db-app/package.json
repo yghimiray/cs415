@@ -1,0 +1,30 @@
+{
+  "name": "dreamhome-db-app",
+  "version": "1.0.0",
+  "description": "a dreamhome db access through node.js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yghimiray/cs415.git"
+  },
+  "keywords": [
+    "console",
+    "app",
+    "node.js",
+    "mysql",
+    "cs415"
+  ],
+  "author": "yghimiray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yghimiray/cs415/issues"
+  },
+  "homepage": "https://github.com/yghimiray/cs415#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
