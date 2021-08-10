@@ -1,0 +1,22 @@
+{
+  "name": "my_library_books_app",
+  "version": "1.0.0",
+  "description": "library books in VSCode",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yghimiray/cs415.git"
+  },
+  "author": "yghimiray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yghimiray/cs415/issues"
+  },
+  "homepage": "https://github.com/yghimiray/cs415#readme",
+  "dependencies": {
+    "mongodb": "^4.1.0"
+  }
+}

@@ -17,14 +17,14 @@ const qryStrAllBranches = "select * from `dreamhome`.`branch` as b order by b.br
 // dbConnection.query(qryStrAllBranches,(error,result)=>{
 // if(error)
 // throw error;
-// console.log(result);
+// displayResult(result);
 // });
 
 const qryStrAllStaffsLondon = "select *from `dreamhome`.`staffs` as s where s.branchNo in (select b.branchNo from  `dreamhome`.`branch` as b where b.city='London')";
 // dbConnection.query(qryStrAllStaffsLondon,(error,result)=>{
 // if(error)
 // throw error;
-// console.log(result);
+// displayResult(result);
 // });
 
 
@@ -32,11 +32,18 @@ const qryStrBranchLondonBristol = "select * from `dreamhome`.`branch` as b where
 dbConnection.query(qryStrBranchLondonBristol,(error,result)=>{
 if(error)
 throw error;
-console.log(result);
+displayResult(result);
 });
 
 
-
+function displayResult(arr){
+    for(const element of arr){
+        console.log(Object.values(element));
+        // for (const [key,value] of Object.entries(element))
+        // console.log(`${key}:${value}`)
+    };
+        return;
+};
 
 
 
