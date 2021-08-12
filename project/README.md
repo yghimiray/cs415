@@ -7,3 +7,4 @@ I have used multiple html and js files for error control so you can start from a
 
 The books' id are typed manually eg. B001, B002 etc for making search easy.
 
+The update and delete options are not yet working. Will keep updating them.
